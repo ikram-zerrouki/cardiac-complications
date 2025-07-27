@@ -20,21 +20,21 @@ To answer this, the pipeline:
 
 ## 🚀 Objectives
 
-- ✅ Predict early (<30 days) post-operative complications after cardiac surgery
-- ✅ Generate synthetic training data using CTGAN
-- ✅ Fine-tune LLMs (Phi-2, Gemma-2B) with LoRA adapters
-- ✅ Evaluate and visualize classification performance
+-  Predict early (<30 days) post-operative complications after cardiac surgery
+-  Generate synthetic training data using CTGAN
+-  Fine-tune LLMs (Phi-2, Gemma-2B) with LoRA adapters
+-  Evaluate and visualize classification performance
 
 ---
 
 ## Key Components
 
-- 🧹 **Data Cleaning**: Encoding, normalization, and preparation of patient records
-- 🧬 **Data Augmentation**: Synthetic sampling with CTGAN (SDV)
-- 🧾 **Prompt Generation**: Automated generation of LLM-compatible prompts
-- 🤖 **Model Fine-Tuning**: Phi-2 & Gemma 2B trained using HuggingFace + PEFT (LoRA adapters)
-- 📊 **Evaluation**: Accuracy, confusion matrix, classification report, ROC AUC
-- 🌲 **Baseline**: Traditional model (Random Forest) for benchmark comparison
+-  **Data Cleaning**: Encoding, normalization, and preparation of patient records
+-  **Data Augmentation**: Synthetic sampling with CTGAN (SDV)
+-  **Prompt Generation**: Automated generation of LLM-compatible prompts
+-  **Model Fine-Tuning**: Phi-2 & Gemma 2B trained using HuggingFace + PEFT (LoRA adapters)
+-  **Evaluation**: Accuracy, confusion matrix, classification report, ROC AUC
+-  **Baseline**: Traditional model (Random Forest) for benchmark comparison
 
 ---
   
